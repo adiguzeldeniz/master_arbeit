@@ -294,8 +294,8 @@ end
 
 function main()
 
-    filename = "/Users/denizadiguzel/0.maxplanck/1.anomaly(c)/tjumpab_scan/tjumpab_c1.h5"
-    runtime_name = "/Users/denizadiguzel/0.maxplanck/1.anomaly(c)/transitions/runtimes1c"
+    filename = "/home/adiguezel/master_arbeit/BA_codes/tjumpab_scan/tjumpab_c1.h5"
+    #runtime_name = "/Users/denizadiguzel/0.maxplanck/1.anomaly(c)/transitions/runtimes1c"
     data = load_hdf5_data(filename)
 
     #runtimes_plotter(data, 200, savefig = nothing)
